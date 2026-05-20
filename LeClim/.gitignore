@@ -1,0 +1,44 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Build/package artifacts
+dist/
+build/
+*.egg-info/
+
+# Local env files
+.env
+.env.*
+*.local
+
+# Raw ClimateBench data and archives
+/data/
+*.nc
+*.tar
+*.tar.gz
+*.zip
+
+# Generated datasets and model artifacts
+*.h5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# Experiment outputs and logs
+outputs/
+lightning_logs/
+wandb/
+runs/
+logs/
+
+# Upstream clone should be fetched separately; keep only the pin document
+external/le-wm/

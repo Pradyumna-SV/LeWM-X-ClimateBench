@@ -1,0 +1,15 @@
+# Mirror of `external/le-wm/config/train/climatebench_lewm.yaml` for repo visibility.
+# Authoritative copy used by Hydra is under `external/le-wm/config/train/`.
+
+defaults:
+  - lewm
+  - override /data: climatebench
+  - _self_
+
+wm:
+  history_size: 1
+  num_preds: 1
+  action_dim: 1
+
+wandb:
+  enabled: false

@@ -1,0 +1,5 @@
+# Publish only the cleaned project folder.
+*
+!.gitignore
+!LeClim/
+!LeClim/**
