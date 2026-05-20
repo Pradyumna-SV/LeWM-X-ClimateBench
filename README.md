@@ -23,6 +23,7 @@ Raw data, checkpoints, generated HDF5 files, and experiment outputs are intentio
 ## Install
 
 ```bash
+cd LeClim
 python3 -m venv .venv
 . .venv/bin/activate
 pip install -e ".[dev]"
